@@ -101,8 +101,10 @@ ignore:
 theme: melody
 
 # Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'git'
-  repo: https://github.com/fengwk/fengwk.github.io.git
-  branch: master
+- type: git
+  repo: https://github.com/fengwk/blog.git
+  branch: deploy
+- type: git
+  repo: https://gitee.com/fengwk/blog.git
+  branch: deploy
