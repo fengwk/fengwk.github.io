@@ -103,8 +103,8 @@ theme: melody
 # Deployment
 deploy:
 - type: git
-  repo: https://github.com/fengwk/blog.git
+  repo: https://github.com/fengwk/fengwk.github.io.git
   branch: deploy
 - type: git
-  repo: https://gitee.com/fengwk/blog.git
+  repo: https://gitee.com/fengwk/fengwk.git
   branch: deploy
