@@ -1,0 +1,20 @@
+name: github pages
+
+on:
+  - push:
+    branches:
+      - main
+  - pull_request_target:
+      types:
+        - closed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout main
+        uses: actions/checkout@main
+
+      - name: deploy
+        run: make
